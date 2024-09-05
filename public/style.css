@@ -1,0 +1,28 @@
+body {
+    font-family: 'Arial', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#hero {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('hero-bg.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+.timeline-item {
+    position: relative;
+    padding: 1.5rem 0;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #007bff;
+}
+
+#skills .col-md-4 {
+    opacity: 0;
+}
